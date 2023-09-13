@@ -1,0 +1,21 @@
+calculator-app/
+├── src/
+│   ├── index.html       (calculator UI)
+│   ├── main.ts          (TypeScript source)
+│   ├── calculator.ts    (TypeScript source)
+│   ├── Calc-ui-elements.ts  (TypeScript source)
+│   ├── calc-req-functionality.ts  (TypeScript source)
+├── dist/
+│   ├── main.js          (Compiled JavaScript)
+│   ├── calculator.js    (Compiled JavaScript)
+│   ├── Calc-ui-elements.js  (Compiled JavaScript)
+│   ├── calc-req-functionality.js  (Compiled JavaScript)
+├── tests/
+│   ├── ui-elements.js   (UI test hook)
+│   ├── functionality.js  (Logic test hook)
+├── jest.config.js       (Jest configuration)
+├── tsconfig.json        (TypeScript configuration)
+├── package.json
+├── node_modules/
+├── ...other project files...
+	

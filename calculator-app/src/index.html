@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <style>
+        /* Calculator Container Styles */
+        #calculator {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px #888;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        /* Display Input Field Styles */
+        input[type="text"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            text-align: right;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Button Styles */
+        button {
+            width: 45px;
+            height: 45px;
+            font-size: 20px;
+            margin: 5px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        /* Equals Button Style */
+        #btn-equal {
+            background-color: #ff9800; /* Change to your desired color */
+            color: #fff;
+        }
+
+        /* Clear Button Style */
+        #btn-clear {
+            background-color: #f44336; /* Change to your desired color */
+            color: #fff;
+        }
+
+        /* Hover Styles for Buttons */
+        button:hover {
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <!-- Calculator UI -->
+    <div id="calculator">
+        <input type="text" id="display" value="0" readonly>
+        <div>
+            <button id="btn-7">7</button>
+            <button id="btn-8">8</button>
+            <button id="btn-9">9</button>
+            <button id="btn-clear">C</button>
+        </div>
+        <div>
+            <button id="btn-4">4</button>
+            <button id="btn-5">5</button>
+            <button id="btn-6">6</button>
+            <button id="btn-add">+</button>
+        </div>
+        <div>
+            <button id="btn-1">1</button>
+            <button id="btn-2">2</button>
+            <button id="btn-3">3</button>
+            <button id="btn-subtract">-</button>
+        </div>
+        <div>
+            <button id="btn-sign">+/-</button>
+            <button id="btn-0">0</button>
+            <button id="btn-equal">=</button>
+            <button id="btn-divide">/</button>
+        </div>
+        <div>
+            <button id="btn-multiply">*</button>
+        </div>
+    </div>
+    <script src="calculator-app/dist/main.js"></script> 
+</body>
+</html>
