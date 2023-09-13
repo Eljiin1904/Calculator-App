@@ -1,0 +1,10 @@
+Known Bugs
+
+These two bugs are stoping me from displaying my calcultor correctly, thus leaving me unable to run test correctly. I'm pretty sure i've root caused the reason for the error, just ran out of time to properly fix these issues. :( 
+
+
+1. When calculator-app launches, currently only the HTML file is loading. 
+
+Causing the calculator to have no function. This issue seems like a configuration issue being caused by my calculator files not importing / exporting correctly. Once the browser loads the indix.html file, its pointed to open main.ts. Main.ts (listener) is coded to import from calculator.ts which holds the logic and functionality of the calculator 
+
+2. Unable to kick off Test using Jest framework. I receving configuration errors (see below), from my test hook files. Thats telling me im not importing / exporting data correctly from ./calculator. It also not calling into my test scripts correctly 
